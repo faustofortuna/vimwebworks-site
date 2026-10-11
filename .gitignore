@@ -1,0 +1,17 @@
+# --- Never commit secrets or local runtime junk ---
+.env
+*.env
+auth.json
+*.key
+*.pem
+*.sqlite
+*.db
+*.log
+logs/
+cache/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Local render/screenshot working files (not part of the site)
+shots/
